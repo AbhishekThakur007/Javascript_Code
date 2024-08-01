@@ -1,0 +1,38 @@
+html{
+    margin: 0;
+    background-color: burlywood;
+}
+
+span{
+    display: block;
+}
+
+.button{
+
+    display: inline-block;
+    height: 100px;
+    width:100px;
+    border: solid black 2px;
+
+}
+.div
+{
+    text-align: center;
+    margin: 100px auto 100px;
+    width: 80%;
+}
+#white{
+    background-color: white;
+}
+#red
+{
+    background-color: red;
+}
+#lightblue
+{
+    background-color: lightblue;
+}
+#cyan
+{
+    background-color: cyan;
+}
