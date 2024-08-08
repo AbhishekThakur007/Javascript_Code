@@ -14,8 +14,21 @@ form.addEventListener('submit', function (e) {
     {
         result.innerHTML = `Please give a valid weight `;
     }else{
-        const bmi = (weight/((height*height)/10000)).toFixed(2);
-        result.innerHTML = `<span>${bmi}</span>`;
+        let bmi = (weight/((height*height)/10000)).toFixed(2);
+        if(bmi<18.6)
+        {
+            result.innerHTML = `<span>${bmi}</span><br/>
+            <span>Under-Weight</span>`;
+            // console.log(`UnderWeight`);
+        }else if(bmi>=18.6 && bmi< 24.9){
+            result.innerHTML = `<span>${bmi}</span><br/>
+            <span>Normal weight</span>`;
+            // console.log(`Normal weight`);
+        }else if(bmi>=24.9){
+            result.innerHTML = `<span>${bmi}</span><br/>
+            <span>Overweight</span>`;
+            // console.log('Overweight');
+        }
     }
 });
 
