@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    padding-block: 25px;
+}
+#height,#weight{
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+#result{
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgb(21, 17, 17);
+}
+.BMI{
+    margin-left: 75px;
+    margin-top: 25px;
+}
+h1{
+    text-align: center;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+}
+html{
+    background-image: url(123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  
