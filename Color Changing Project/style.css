@@ -1,0 +1,57 @@
+body{
+    background-color: hsl(83, 51%, 73%);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+nav a{
+    display: inline-block;
+    min-width: 9rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: solid 1px rgb(22, 22, 22);
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b1b;
+    background-color: hsl(192, 38%, 84%);
+}
+nav a:hover{
+    background-color: aquamarine;
+}
+h1{
+    color: rgb(56, 121, 179);
+    text-align: center;
+}
+button{
+    display: inline-block;
+    min-width: 9rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: solid 1px rgb(22, 22, 22);
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b1b;
+    background-color: hsl(192, 38%, 84%);
+}
+button:hover{
+    background-color: aqua;
+}
+/* Ensure the container covers the desired area */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Button styling */
+#start,#stop {
+    padding: 10px 20px;
+    font-size: 16px;
+}
