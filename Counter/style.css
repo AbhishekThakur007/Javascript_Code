@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+#mydiv
+{
+    text-align: center;
+   
+}
+.buttons{
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    background-color: rgb(87, 156, 215);
+}
+
+.buttons:hover{
+    background-color: aqua;
+}
+label{
+    display: block;
+    font-size: 10em;
+    color: white;
+    text-align: center;
+}
