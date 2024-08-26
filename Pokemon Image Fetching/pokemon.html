@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Image Fetching</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <h1>Pokemon Image Generator</h1>
+        <div id="mydiv">
+            <div class="input">
+                <input type="text" id="pokemonName" placeholder="Type Pokemon Name"> 
+            </div>
+            <div class="input">
+                <button onclick="fetchData()">Fetch Pokemon</button><br>
+            </div>
+        </div>
+    </div>
+    <div id="div_image">
+        <img src="" alt="pokemon Sprite" id="pokemonSprite" style="display : none">
+    </div>
+    
+    <script src="pokemon.js"></script>
+</body>
+</html>
