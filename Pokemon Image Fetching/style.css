@@ -1,0 +1,21 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+#pokemonSprite
+{
+    width: 29vh;
+}
+#div_image
+{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
